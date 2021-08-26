@@ -1,5 +1,5 @@
 html body {
-    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-attachment: fixed, fixed;
     background-position:top -500px left -400px , bottom -600px right -400px ;
     background-repeat: no-repeat ,no-repeat;
