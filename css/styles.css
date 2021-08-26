@@ -1,0 +1,119 @@
+html body {
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-attachment: fixed, fixed;
+    background-position:top -500px left -400px , bottom -600px right -400px ;
+    background-repeat: no-repeat ,no-repeat;
+    height: 100% , 100%;
+    width: 100%, 100%;
+    
+    background-color: hsl(185, 75%, 39%);
+}
+body main{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+/* card section */
+
+
+
+
+
+main .card{
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 22rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.card .card-img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.card .card-body{
+    padding: 20px;
+}
+
+
+.profile-pic{
+    margin: 0;
+    width: 28%;
+    border-radius: 360px;
+    border: 5px solid white;
+    position: absolute;
+    top:100px ;
+    right:37%;
+
+}
+
+.card .card-title{
+    font-weight: bold;
+    margin-top: 60px;
+    
+}
+
+.card-title span{
+    color: hsl(0, 0%, 59%);
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.london{
+    font-weight: lighter;
+    color: hsl(0, 0%, 59%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.row{
+    padding: 30px 30px 5px;
+}
+
+
+.row h5{
+    font-family: 'Kumbh Sans', sans-serif;
+    size: 8px;
+    font-weight: bolder;
+    color: black;
+}
+
+.row p{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+}
+
+
+
+@media(max-width:1000px){
+    body .main{
+        margin: 0 auto;
+    }
+}
+
+
+
+/* footer section */
+
+
+.attribution{
+    text-align: center;
+    margin-top: 70px;
+
+}
